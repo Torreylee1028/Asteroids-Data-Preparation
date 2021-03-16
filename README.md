@@ -2,7 +2,7 @@
 
 ## Data Preparation
 
-### Introduction
+### Summary
 
 This project consisted of cleaning data from three different sources: a flat file, scraping a website, and connecting to an API. the cleaning of the data utilizes pandas DataFrame. The final product included joining all three sources on the same key by storing them in a SQLite database. 
 
@@ -13,7 +13,8 @@ The final database contained information on asteroids, how much they would be wo
 * BeautifulSoup
 * Sqlite3
 
-### Part 1 – Flat File Source
+### Notebooks
+#### Part 1 – Flat File Source
 
 The first part of this project was to load a flat file such as a CSV and clean the data.
 
@@ -26,7 +27,7 @@ Source: JPL Small-Body Database Search Engine: https://ssd.jpl.nasa.gov/sbdb_que
   * Fill in missing values
   * Change measurement of a column from kilometer to miles
 
-### Part 2 – Website Source
+#### Part 2 – Website Source
 
 The second part of the project was to use BeautifulSoup and scrape a website to retrieve data.
 
@@ -39,7 +40,7 @@ Source: Asterank: https://www.asterank.com/
     * Change column from reflecting a string of “100 million” to numeric representation “100,000,000”
     * Bin columns based on values
 
-### Part 3 – API Source
+#### Part 3 – API Source
 The last data source came from connecting to an API to pull the data.
 
 Source: NASA APIs: https://api.nasa.gov/
@@ -50,7 +51,7 @@ Source: NASA APIs: https://api.nasa.gov/
     * Drop columns
     * Change a date column from an object type to datetime type to utilize datetime features 
 
-### Part 4 – Asteroid Database
+#### Part 4 – Asteroid Database
 *	Demonstrated the following:
     * Creating a SQLite database 
     * Creating three separate tables
