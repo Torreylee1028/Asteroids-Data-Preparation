@@ -48,7 +48,7 @@ Source: NASA APIs: https://api.nasa.gov/
     * Drop columns
     * Change a date column from an object type to datetime type to utilize datetime features 
 
-### Part 4 – Database
+### Part 4 – Asteroid Database
 *	Demonstrated the following:
     * Creating a SQLite database 
     * Creating three separate tables
