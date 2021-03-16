@@ -1,6 +1,8 @@
-# Data-Preparation
+# Asteroids
 
-## Introduction
+## Data Preparation
+
+### Introduction
 
 This project consisted of cleaning data from three different sources: a flat file, scraping a website, and connecting to an API. the cleaning of the data utilizes pandas DataFrame. The final product included joining all three sources on the same key by storing them in a SQLite database. 
 
